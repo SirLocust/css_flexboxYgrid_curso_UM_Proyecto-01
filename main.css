@@ -95,9 +95,12 @@ aside {
 }
 .servicios {
     /* Flex aqui*/
+    display: flex;
+    flex-direction: column;
 }
 .servicios .servicio {
     /* Flex aqui*/
+    flex:1;
 }
 @media screen and (min-width:768px) {
     .servicios .servicio {
@@ -124,6 +127,9 @@ footer {
     background-color: #8E24AA;
     margin-top: 20px;
     /* Flex aqui*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 footer p {
     color: white;
